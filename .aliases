@@ -26,9 +26,6 @@ alias gl="git pull"
 alias gc="git commit -am"
 alias gh="git checkout"
 
-# Make Files
-alias md="make deploy"
-
 # Stopwatch
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
