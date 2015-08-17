@@ -1,0 +1,9 @@
+[user]
+	name = Marko Prelec
+	email = mareprelc@gmail.com
+[core]
+	editor = vim
+	excludesfile = /Users/prelc/.gitignore_global
+	fileMode = false
+[push]
+	default = simple
