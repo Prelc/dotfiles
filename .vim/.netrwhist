@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/prelc/projects/devbox/www/demo.proteusthemes.local/wp-content/themes/devlog/.git'
-let g:netrw_dirhist_2='/Applications/XAMPP/xamppfiles/htdocs/shake-that/wp-content/themes/.git'
-let g:netrw_dirhist_3='/Applications/XAMPP/xamppfiles/htdocs/shake-that/wp-content/themes'
-let g:netrw_dirhist_4='/Applications/XAMPP/xamppfiles/htdocs/shake-that/wp-content/themes/.git'
