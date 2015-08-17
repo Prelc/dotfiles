@@ -1,5 +1,5 @@
 Applications/
-Dekstop/
+Desktop/
 Documents/
 Downloads/
 Dropbox/
@@ -8,6 +8,35 @@ Movies/
 Music/
 Pictures/
 Public/
+projects/
+.CFUserTextEncoding
+.bash_history
+.cache/
+.composer/
+.config/
+.dropbox/
+.extra
+.gem/
+.git-completion.bash
+.gitignore_global
+.gnupg/
+.irssi/
+.kodi/
+.mkshrc
+.node-gyp/
+.npm/
+.profile
+.rvm/
+.ssh/
+.subversion/
+.tinypng
+.v8flags.3.14.5.9.prelc.json
+.vagrant.d/
+.vim/.netrwhist
+.viminfo
+.zlogin
+.zshrc
+VirtualBox VMs/
 
 # Folder view configuration files
 .DS_Store
