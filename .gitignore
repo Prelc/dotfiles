@@ -37,6 +37,7 @@ projects/
 .zlogin
 .zshrc
 VirtualBox VMs/
+.Trash/
 
 # Folder view configuration files
 .DS_Store
