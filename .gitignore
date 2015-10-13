@@ -17,6 +17,7 @@ projects/
 .dropbox/
 .extra
 .gem/
+.ievms/
 .git-completion.bash
 .gitignore_global
 .gnupg/
