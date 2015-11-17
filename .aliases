@@ -16,8 +16,8 @@ alias s="sublime"
 alias photoshop='open -a "Adobe Photoshop CS6"'
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias pt="cd ~/projects/devbox/www/demo.proteusthemes.local/wp-content/themes/"
-alias ptd="cd ~/projects/devbox/www/www.proteusthemes.local/docs/"
+alias pt="cd ~/projects/pt/www/demo.proteusthemes.com/wp-content/themes/"
+alias ptd="cd ~/projects/pt/www/www.proteusthemes.com/docs/"
 
 # Git
 alias gs="git status"
