@@ -53,3 +53,6 @@ set backspace=indent,eol,start
 set noerrorbells
 " Show the (partial) command as it’s being typed
 set showcmd
+
+" Automatically wrap long commit messages
+au FileType gitcommit set tw=72

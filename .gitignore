@@ -39,6 +39,11 @@ projects/
 .zshrc
 VirtualBox VMs/
 .Trash/
+.adobe/
+.ansible_galaxy
+.atom/
+.lesshst
+.v8flags.4.6.85.31.prelc.json
 
 # Folder view configuration files
 .DS_Store
