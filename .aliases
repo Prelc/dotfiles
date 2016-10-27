@@ -23,7 +23,7 @@ alias ptd="cd ~/projects/pt/www/www.proteusthemes.com/wp-theme-docs/"
 alias gs="git status"
 alias gp="git push"
 alias gl="git pull"
-alias gc="git commit -am"
+alias gc="git commit -m"
 alias gh="git checkout"
 
 # Stopwatch
