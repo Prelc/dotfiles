@@ -27,6 +27,11 @@ alias gl="git pull"
 alias gc="git commit -m"
 alias gh="git checkout"
 
+# npm run
+alias nr="npm run"
+alias nrw="npm run watch"
+alias nrc="npm run css"
+
 # Stopwatch
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
