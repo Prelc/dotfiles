@@ -31,7 +31,6 @@ projects/
 .ssh/
 .subversion/
 .tinypng
-.v8flags.3.14.5.9.prelc.json
 .vagrant.d/
 .vim/.netrwhist
 .viminfo
@@ -43,7 +42,10 @@ VirtualBox VMs/
 .ansible_galaxy
 .atom/
 .lesshst
-.v8flags.4.6.85.31.prelc.json
+.v8flags.*
+.boom
+.vue-templates/
+.node_repl_history
 
 # Folder view configuration files
 .DS_Store
