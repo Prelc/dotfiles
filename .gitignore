@@ -46,6 +46,10 @@ VirtualBox VMs/
 .boom
 .vue-templates/
 .node_repl_history
+.cups/
+.mysql_history
+.vscode/
+.wget-hsts
 
 # Folder view configuration files
 .DS_Store
