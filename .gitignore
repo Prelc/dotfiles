@@ -50,6 +50,9 @@ VirtualBox VMs/
 .mysql_history
 .vscode/
 .wget-hsts
+.vuerc
+.vue-cli-ui/
+.babel.json
 
 # Folder view configuration files
 .DS_Store
