@@ -53,6 +53,8 @@ VirtualBox VMs/
 .vuerc
 .vue-cli-ui/
 .babel.json
+.bash_sessions/
+.pia_manager/
 
 # Folder view configuration files
 .DS_Store
