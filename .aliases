@@ -13,30 +13,15 @@ alias la="ls -la -F"
 # Shortcuts
 alias v="vim"
 alias s="sublime"
-alias photoshop='open -a "Adobe Photoshop CS6"'
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
-alias pt="cd ~/projects/pt/www/demo.proteusthemes.com/wp-content/themes/"
-alias ptd="cd ~/projects/pt/www/www.proteusthemes.com/wp-theme-docs/"
-alias pto="cd ~/projects/pt/www/www.proteusthemes.com/wp-content/themes/olm"
 
 # Git
 alias gs="git status"
 alias gp="git push"
 alias gl="git pull"
-alias gc="git commit -m"
-alias gh="git checkout"
 
 # npm run
 alias nr="npm run"
 alias nrw="npm run watch"
-alias nrc="npm run css"
-
-# Stopwatch
-alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
-
-# Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update'
 
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
@@ -48,10 +33,3 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-
-# Empty the Trash on all mounted volumes and the main HDD
-# Also, clear Apple’s System Logs to improve shell startup speed
-alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
-
-# Everify = Check Purchase Code from Envato
-alias kontrola="everify.sh"
