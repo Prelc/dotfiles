@@ -26,6 +26,9 @@ projects/
 .mkshrc
 .node-gyp/
 .npm/
+.localhost_ssl/
+.oracle_jre_usage/
+.slaterc
 .profile
 .rvm/
 .ssh/
