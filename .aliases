@@ -12,12 +12,15 @@ alias la="ls -la -F"
 
 # Shortcuts
 alias v="vim"
-alias s="sublime"
+alias ta="cd ~/projects/turtl/turtl"
+alias tt="cd ~/projects/turtl/turtl-brand-themes-compiler"
 
 # Git
 alias gs="git status"
 alias gp="git push"
 alias gl="git pull"
+alias gb="git branch"
+alias gm="git commit"
 
 # npm run
 alias nr="npm run"
