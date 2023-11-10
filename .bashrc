@@ -18,7 +18,7 @@ function ssl-check() {
     )
     
     if [[ ! -f $ssl_crt ]]; then
-        echo -e "\n🛑  ${b}Couldn't find a Slate SSL certificate:${c}"
+        echo -e "\n🛑  ${b}Couldn\'t find a Slate SSL certificate:${c}"
         make_key=true
     elif [[ ! $(openssl x509 -noout -text -in $ssl_crt | grep $local_ip) ]]; then
         echo -e "\n🛑  ${b}Your IP Address has changed:${c}"
@@ -32,11 +32,11 @@ function ssl-check() {
         count=$(( ${#domains[@]} - 1))
         mkcert ${domains[@]}
     
-        # Create Slate's default certificate directory, if it doesn't exist
+        # Create Slate\'s default certificate directory, if it doesn't exist
         test ! -d $f && mkdir $f
     
         # It appears mkcert bases its filenames off the number of domains passed after the first one.
-        # This script predicts that filename, so it can copy it to Slate's default location.
+        # This script predicts that filename, so it can copy it to Slate\'s default location.
         if [[ $count = 0 ]]; then
             mv ./localhost.pem $ssl_crt
             mv ./localhost-key.pem $ssl_key

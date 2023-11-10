@@ -26,6 +26,16 @@ alias gm="git commit"
 alias nr="npm run"
 alias nrw="npm run watch"
 
+#Turtl
+alias restartturtlapp="git pull origin master && npm i && cd client && npm i && npx grunt dev && cd ../client-ng2 && npm i && npm run build && cd ../client-ck && npm i && npm run build && cd .. && make watch"
+
+# PHP
+alias stopphp="killall -9 php"
+alias python=python3
+
+# Python
+alias startpythonserver="open http://localhost:8000 && python3 -m http.server"
+
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
